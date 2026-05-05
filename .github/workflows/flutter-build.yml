@@ -19,8 +19,11 @@ jobs:
         with:
           flutter-version: "3.19.0"
 
-       - name: Install dependencies
-        working-directory: flutter
+      - name: Install dependencies
+        working-directory: mobile
         run: flutter pub get
+
+    
+
 
       
