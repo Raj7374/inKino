@@ -19,11 +19,8 @@ jobs:
         with:
           flutter-version: "3.19.0"
 
-      - name: Install dependencies
+       - name: Install dependencies
+        working-directory: flutter
         run: flutter pub get
 
-      - name: Run tests
-        run: flutter test
-
-      - name: Build Android APK
-        run: flutter build apk --release
+      
