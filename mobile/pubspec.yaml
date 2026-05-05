@@ -1,6 +1,9 @@
 name: inkino
 description: A new Flutter application.
 
+environment:
+  sdk: '^3.3.0'   # Added SDK constraint
+
 dependencies:
   core:
     path: ../core
@@ -24,7 +27,7 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-  - assets/images/1x1_transparent.png
-  - assets/images/powered_by_tmdb.png
-  - assets/images/background_image.jpg
-  - assets/images/logo.png
+    - assets/images/1x1_transparent.png
+    - assets/images/powered_by_tmdb.png
+    - assets/images/background_image.jpg
+    - assets/images/logo.png
